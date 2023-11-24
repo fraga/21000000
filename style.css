@@ -1,0 +1,14 @@
+body {
+    background-color: #f8f9fa; /* Uma cor de fundo suave */
+}
+
+.jumbotron {
+    background-color: #fff; /* Fundo branco para a seção de charadas */
+    border-radius: 0.5rem; /* Bordas arredondadas para o jumbotron */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra para dar profundidade */
+}
+
+#stage-img {
+    margin-top: 20px; /* Espaço acima da imagem */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra na imagem */
+}

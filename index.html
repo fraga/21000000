@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça ao Tesouro</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center my-4">
+        <div class="jumbotron">
+            <h1 class="display-4" id="riddle">[Charada da Etapa 1]</h1>
+            <div class="input-group my-4">
+                <input type="text" id="answer-input" class="form-control form-control-lg" placeholder="Digite sua resposta aqui" aria-describedby="responseHelp" />
+                <div class="input-group-append">
+                    <button class="btn btn-lg btn-primary" onclick="checkAnswer()">Enviar</button>
+                </div>
+            </div>
+            <div id="response-alert" class="alert alert-danger" role="alert" style="display: none;">
+                Resposta incorreta. Tente novamente!
+            </div>
+        </div>
+        <img id="stage-img" src="images/stage1.jpg" class="img-fluid" alt="Etapa 1">
+        <audio id="background-sound" loop preload="auto">
+            <source src="sounds/stage1.wav" type="audio/wav">
+            Seu navegador não suporta áudio HTML5.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
